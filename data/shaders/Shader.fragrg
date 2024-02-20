@@ -1,0 +1,42 @@
+#version 330 core
+
+
+uniform sampler2D tex_2d;
+in vec4 color;
+
+in vec2 texCoord;
+
+out vec4 Frag;
+
+
+uniform int setTexture;
+uniform int ColorSet;
+
+void main()
+{
+   	//Frag = vec4(color);
+   	
+    /*Frag = vec4(1,1,1,1);
+    if(ColorSet == 1)
+    { 
+        Frag = color;
+        Frag = vec4(texture(tex_2d, texCoord));
+        Frag.rgb = color.rgb;
+    }*/
+        
+    
+    Frag = color;
+
+   	if(setTexture > 0)
+   	{
+   		Frag *= vec4(texture(tex_2d, texCoord));
+   	    
+   		if(ColorSet == 1)
+   		{
+            Frag.rgb = color.rgb;
+        }
+   	}
+
+    //Frag = vec4(1,1,0,1);
+
+}
