@@ -22,3 +22,6 @@ Rinerest - моя игра, созданная на моём движке Rinegi
 
 ### Пешком:
 Прыгнуть: Space (пробел).
+
+## Скачать:
+[Itch.io](https://rinemest.itch.io/rinerest)
