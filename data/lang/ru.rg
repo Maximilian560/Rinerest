@@ -17,3 +17,8 @@
 {rinerest:apply}Применить;
 {rinerest:diameterchunkssetting}Количество чанков (диаметр)\n§ff0000ffСильно влияет на время генерации мира и ОЗУ!;
 {rinerest:vssetting}Вертикальная синхронизация;
+{rinerest:back_to_menu}Меню;
+{rinerest:back}Назад;
+{rinerest:create_world}Создание мира;
+{rinerest:create_new_world}Создать новый мир;
+{rinerest:continue}Продолжить;

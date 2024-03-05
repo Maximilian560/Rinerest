@@ -4,8 +4,8 @@
 MAIN ICON "icon.ico"
 
 VS_VERSION_INFO VERSIONINFO
-FILEVERSION 0,0,0,6
-PRODUCTVERSION 0,0,0,6
+FILEVERSION 0,0,0,7
+PRODUCTVERSION 0,0,0,7
 FILEFLAGSMASK 0x3fL
 FILEFLAGS 0x0L
 FILEOS VOS__WINDOWS32
@@ -19,12 +19,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Rinemest"						//Компания Rinemest
             VALUE "FileDescription", "Rinerest Beginning"	//Описание игры
-            VALUE "FileVersion", "0.0.0.6"						//Версия файла
+            VALUE "FileVersion", "0.0.0.7"						//Версия файла
             VALUE "InternalName", "Rinerest"					//Внутреннее имя?
             VALUE "LegalCopyright", "Rinemest"					//Юридическое авторское право?
             VALUE "OriginalFilename", "Rinerest.exe"			//Настоящее имя файла
-            VALUE "ProductName", "Rinerest InDev.6"				    //Имя продукта
-            VALUE "ProductVersion", "0.0.0.6"					//Версия продукта
+            VALUE "ProductName", "Rinerest InDev.7"				    //Имя продукта
+            VALUE "ProductVersion", "0.0.0.7"					//Версия продукта
         END
     END
     BLOCK "VarFileInfo"

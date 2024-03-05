@@ -17,3 +17,8 @@
 {rinerest:apply}Apply;
 {rinerest:diameterchunkssetting}Number of generated chunks (diameter)\n§ff0000ffGreatly affects world generation time and RAM!;
 {rinerest:vssetting}VSyn;
+{rinerest:back_to_menu}Menu;
+{rinerest:back}Back;
+{rinerest:create_world}World creation;
+{rinerest:create_new_world}Create new world;
+{rinerest:continue}Continue;

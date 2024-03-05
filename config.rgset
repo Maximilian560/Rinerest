@@ -1,0 +1,4 @@
+name = Rinerest
+bit = 64
+resource = resource
+source = source.cpp
